@@ -1,0 +1,31 @@
+.accueil {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+}
+section {
+    margin-top:100px ;
+}
+section img{
+    width: 50%;
+}
+
+.autocomplete-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+  }
+  
+  .input-container input {
+    flex: 1;
+    outline: none;
+    
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    padding-right: 31px;
+    font-size: 16px;
+  }
